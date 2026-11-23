@@ -1,0 +1,156 @@
+[
+  {
+    "domain": "Dense",
+    "backend": "accelerator",
+    "method": "direct_black",
+    "paper_name": "Direct Black-Box",
+    "paired_measurements": 6,
+    "seconds": 0.0002924295631354709,
+    "latency_us": 292.43,
+    "native_speedup": 2324.8500748567376,
+    "relative_to_black": 1.0
+  },
+  {
+    "domain": "Dense",
+    "backend": "accelerator",
+    "method": "predefined_hybrid",
+    "paper_name": "Predefined Hybrid",
+    "paired_measurements": 6,
+    "seconds": 0.00039252386082097546,
+    "latency_us": 392.52,
+    "native_speedup": 2620.1286267797177,
+    "relative_to_black": 1.1804403059145754
+  },
+  {
+    "domain": "Dense",
+    "backend": "accelerator",
+    "method": "dosa_direct",
+    "paper_name": "DOSA Direct",
+    "paired_measurements": 18,
+    "seconds": 0.004060929103826101,
+    "latency_us": 4060.93,
+    "native_speedup": 166.67164446980064,
+    "relative_to_black": 0.0706450637227499
+  },
+  {
+    "domain": "Dense",
+    "backend": "accelerator",
+    "method": "dosa_residual",
+    "paper_name": "DOSA Residual",
+    "paired_measurements": 18,
+    "seconds": 0.0022772261636800598,
+    "latency_us": 2277.23,
+    "native_speedup": 1018.5979237059237,
+    "relative_to_black": 0.44798264134775384
+  },
+  {
+    "domain": "Dense",
+    "backend": "accelerator",
+    "method": "esm",
+    "paper_name": "ESM",
+    "paired_measurements": 18,
+    "seconds": 0.00016065394206656107,
+    "latency_us": 160.65,
+    "native_speedup": 4019.5038735912576,
+    "relative_to_black": 1.8021181824653907
+  },
+  {
+    "domain": "Dense",
+    "backend": "accelerator",
+    "method": "prism",
+    "paper_name": "Prism",
+    "paired_measurements": 6,
+    "seconds": 0.00035131970001448534,
+    "latency_us": 351.32,
+    "native_speedup": 6682.508556849485,
+    "relative_to_black": 2.958255385549665
+  },
+  {
+    "domain": "NoC",
+    "backend": "noc",
+    "method": "direct_black",
+    "paper_name": "Direct Black-Box",
+    "paired_measurements": 6,
+    "seconds": 0.00020019166482225726,
+    "latency_us": 200.19,
+    "native_speedup": 657.1148330217172,
+    "relative_to_black": 1.0
+  },
+  {
+    "domain": "NoC",
+    "backend": "noc",
+    "method": "predefined_hybrid",
+    "paper_name": "Predefined Hybrid",
+    "paired_measurements": 6,
+    "seconds": 0.00020910300543939157,
+    "latency_us": 209.1,
+    "native_speedup": 660.5902090027784,
+    "relative_to_black": 0.9788127869060397
+  },
+  {
+    "domain": "NoC",
+    "backend": "noc",
+    "method": "esm",
+    "paper_name": "ESM",
+    "paired_measurements": 18,
+    "seconds": 0.00025110919553710854,
+    "latency_us": 251.11,
+    "native_speedup": 547.1531726276797,
+    "relative_to_black": 0.8220916039321902
+  },
+  {
+    "domain": "NoC",
+    "backend": "noc",
+    "method": "prism",
+    "paper_name": "Prism",
+    "paired_measurements": 6,
+    "seconds": 0.00020910300543939157,
+    "latency_us": 209.1,
+    "native_speedup": 660.5902090027784,
+    "relative_to_black": 0.9788127869060397
+  },
+  {
+    "domain": "Sparse",
+    "backend": "sparse",
+    "method": "direct_black",
+    "paper_name": "Direct Black-Box",
+    "paired_measurements": 6,
+    "seconds": 0.0002119037633140882,
+    "latency_us": 211.9,
+    "native_speedup": 219.7888454255908,
+    "relative_to_black": 1.0
+  },
+  {
+    "domain": "Sparse",
+    "backend": "sparse",
+    "method": "predefined_hybrid",
+    "paper_name": "Predefined Hybrid",
+    "paired_measurements": 6,
+    "seconds": 0.00020727151509731523,
+    "latency_us": 207.27,
+    "native_speedup": 215.2621574369904,
+    "relative_to_black": 0.9855768556761386
+  },
+  {
+    "domain": "Sparse",
+    "backend": "sparse",
+    "method": "esm",
+    "paper_name": "ESM",
+    "paired_measurements": 18,
+    "seconds": 0.0002454921749292635,
+    "latency_us": 245.49,
+    "native_speedup": 182.06676751938943,
+    "relative_to_black": 0.8325156065767553
+  },
+  {
+    "domain": "Sparse",
+    "backend": "sparse",
+    "method": "prism",
+    "paper_name": "Prism",
+    "paired_measurements": 6,
+    "seconds": 0.0002119037633140882,
+    "latency_us": 211.9,
+    "native_speedup": 219.7888454255908,
+    "relative_to_black": 1.0
+  }
+]

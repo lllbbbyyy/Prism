@@ -1,0 +1,136 @@
+{
+  "controllers": [
+    {
+      "controller": "fixed_dual_role",
+      "paper_name": "Fixed Dual-Role",
+      "builds": 12,
+      "trials": [
+        1,
+        2
+      ],
+      "llm_calls": 48,
+      "tokens": 265026,
+      "reach_threshold": 7,
+      "dense_mape": 0.02355667400505765,
+      "noc_mape": 0.008187998080381115,
+      "sparse_mape": 0.09248151017831374
+    },
+    {
+      "controller": "single_agent",
+      "paper_name": "Single-Agent",
+      "builds": 6,
+      "trials": [
+        1
+      ],
+      "llm_calls": 24,
+      "tokens": 136770,
+      "reach_threshold": 4,
+      "dense_mape": 0.020758447664497217,
+      "noc_mape": 0.008797607605289887,
+      "sparse_mape": 0.07143049930895734
+    },
+    {
+      "controller": "concise_state",
+      "paper_name": "Concise State",
+      "builds": 12,
+      "trials": [
+        1,
+        2
+      ],
+      "llm_calls": 18,
+      "tokens": 93302,
+      "reach_threshold": 7,
+      "dense_mape": 0.02355667400505765,
+      "noc_mape": 0.007894357554948245,
+      "sparse_mape": 0.0698348199803857
+    },
+    {
+      "controller": "adaptive_rules",
+      "paper_name": "Adaptive Rules",
+      "builds": 12,
+      "trials": [
+        1,
+        2
+      ],
+      "llm_calls": 0,
+      "tokens": 0,
+      "reach_threshold": 8,
+      "dense_mape": 0.02351397055605234,
+      "noc_mape": 0.007894357554948245,
+      "sparse_mape": 0.0740722179961355
+    },
+    {
+      "controller": "prism",
+      "paper_name": "Prism",
+      "builds": 12,
+      "trials": [
+        1,
+        2
+      ],
+      "llm_calls": 16,
+      "tokens": 85687,
+      "reach_threshold": 8,
+      "dense_mape": 0.02386284926419728,
+      "noc_mape": 0.007894357554948245,
+      "sparse_mape": 0.06949036420756431
+    }
+  ],
+  "per_trial_usage": [
+    {
+      "trial": 1,
+      "seed": 87001,
+      "controller": "prism",
+      "llm_calls": 8,
+      "tokens": 45992
+    },
+    {
+      "trial": 1,
+      "seed": 87001,
+      "controller": "fixed_dual_role",
+      "llm_calls": 24,
+      "tokens": 137232
+    },
+    {
+      "trial": 1,
+      "seed": 87001,
+      "controller": "adaptive_rules",
+      "llm_calls": 0,
+      "tokens": 0
+    },
+    {
+      "trial": 1,
+      "seed": 87001,
+      "controller": "concise_state",
+      "llm_calls": 8,
+      "tokens": 42444
+    },
+    {
+      "trial": 2,
+      "seed": 87002,
+      "controller": "prism",
+      "llm_calls": 8,
+      "tokens": 39695
+    },
+    {
+      "trial": 2,
+      "seed": 87002,
+      "controller": "fixed_dual_role",
+      "llm_calls": 24,
+      "tokens": 127794
+    },
+    {
+      "trial": 2,
+      "seed": 87002,
+      "controller": "adaptive_rules",
+      "llm_calls": 0,
+      "tokens": 0
+    },
+    {
+      "trial": 2,
+      "seed": 87002,
+      "controller": "concise_state",
+      "llm_calls": 10,
+      "tokens": 50858
+    }
+  ]
+}
